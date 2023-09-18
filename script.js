@@ -56,16 +56,9 @@ let currentIndex = 0;
 let intervalID;
 
 function changeBackgroundImage() {
-    if (window.innerWidth < 700) {
-        document.body.style.backgroundImage = `url(${imagens[currentIndex]})`;
-
-        imageContainer.style.backgroundImage = 'none'; 
-    } else {
         
-        imageContainer.style.backgroundImage = `url(${imagens[currentIndex]})`;
-        document.body.style.backgroundImage = 'none'; 
-    }
-
+    imageContainer.style.backgroundImage = `url(${imagens[currentIndex]})`;
+        
     currentIndex = (currentIndex + 1) % imagens.length;
 }
 
