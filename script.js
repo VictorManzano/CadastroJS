@@ -67,10 +67,10 @@ function changeBackgroundImage() {
 function resetInterval() {
     clearInterval(intervalID); 
     currentIndex = 0; 
-    intervalID = setInterval(changeBackgroundImage, 5000);
+    intervalID = setInterval(changeBackgroundImage, 3000);
 }
 
 changeBackgroundImage();
-intervalID = setInterval(changeBackgroundImage, 5000);
+intervalID = setInterval(changeBackgroundImage, 3000);
 
 
