@@ -1,6 +1,6 @@
 # Titulo: Página de cadastro simples.
 
-## Acessar: https://victormanzano.github.io/loginJS/
+## Acessar: https://victormanzano.github.io/CadastroJS/
 
 ## Ferramentas:
 - HTML
